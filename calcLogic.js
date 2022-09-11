@@ -12,6 +12,14 @@ function testBtn( x )
         document.getElementById("text").value = "";
         evaluated  =false;
     }
+
+    else if(x == 'delete')
+    {
+        let s = document.getElementById("text").value;
+        document.getElementById("text").value = s.slice(0,s.length-1);
+        evaluated = false;
+
+    }
     else 
     {  if(evaluated == false)
        document.getElementById("text").value += x;
