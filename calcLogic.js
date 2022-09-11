@@ -28,7 +28,7 @@ function testBtn( x )
           document.getElementById("text").value = x;
           evaluated = false;
        }
-    }
+    } 
 
     
 }
