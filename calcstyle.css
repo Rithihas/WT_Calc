@@ -56,7 +56,7 @@ button {
 }
 
 
-.container input[type="text"] {
+.sol {
 
     grid-column: 1/ span 4;
 
@@ -64,6 +64,18 @@ button {
     height: 80px;
 
     border: 5px solid black;
+
+    display : flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: x-large;
+
+    font-weight: 800;
+    
+    
 
 
 }

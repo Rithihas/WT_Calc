@@ -1,10 +1,8 @@
-function pressNumber()
+
+
+function test()
 {
-
     
-
-
-
+    document.getElementById("text").value = "Johnny Bravo";
+    
 }
-
-calc.display.value = "500";
