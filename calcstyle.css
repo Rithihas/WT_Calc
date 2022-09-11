@@ -7,13 +7,13 @@
 
     display: grid;
 
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
     border: 5px solid black;
 
-    height: 400px;
+    height: 480px;
 
     width: 300px;
 
@@ -52,6 +52,14 @@ button {
 
 
 
+
+}
+
+.equals{
+
+    grid-column: 1/ span 4;
+
+    width : 300px;
 
 }
 

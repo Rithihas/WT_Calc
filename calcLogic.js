@@ -1,8 +1,26 @@
+let evaluated = false;
 
-
-function test()
+function testBtn( x )
 {
-    
-    document.getElementById("text").value = "Johnny Bravo";
+    if(x == '=')
+    {
+        document.getElementById("text").value = eval(document.getElementById("text").value);
+        evaluated = true;
+    }
+    else if(x == 'clear')
+    {
+        document.getElementById("text").value = "";
+        evaluated  =false;
+    }
+    else 
+    {  if(evaluated == false)
+       document.getElementById("text").value += x;
+       else 
+       {
+          document.getElementById("text").value = x;
+          evaluated = false;
+       }
+    }
+
     
 }
